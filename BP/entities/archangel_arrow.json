@@ -1,0 +1,101 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "projecte:archangel_arrow",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow",
+      "properties": {
+        "projecte:rot_y": {
+          "client_sync": true,
+          "default": 0.0,
+          "range": [-360.0, 360.0],
+          "type": "float"
+        },
+        "projecte:rot_x": {
+          "client_sync": true,
+          "default": 0.0,
+          "range": [-360.0, 360.0],
+          "type": "float"
+        },
+        "projecte:owner": {
+          "client_sync": true,
+          "default": 0.0,
+          "range": [-360.0, 360.0],
+          "type": "float"
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.12,
+        "height": 0.12
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "channeling": true,
+            "damage": [ 1, 4 ],
+            "knockback": true,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": false
+          },
+          "stick_in_ground": {
+            "shake_time" : 0.35
+          }
+        },
+        "homing": false,
+        "splash_potion": true,
+        "splash_range": 6,
+        "hit_sound": "bow.hit",
+        "power": 1.6,
+        "gravity": 0.05,
+        "uncertainty_base": 16,
+        "uncertainty_multiplier": 4,
+        "anchor": 1,
+        "should_bounce": true,
+        "offset": [ 0, -0.1, 0 ]
+      },
+      "minecraft:movement.fly": {
+        "max_turn": 30
+      },
+      "minecraft:movement": {
+        "value": 1
+      },
+      "minecraft:navigation.fly": {},
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:timer": {
+        "time": 0.01,
+        "looping": true,
+        "time_down_event": {
+          "event": "projecte:archangel_arrow",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "despawn": {
+        "queue_command": {
+          "command": "scriptevent projecte:despawn"
+        }
+      },
+      "projecte:archangel_arrow":{}
+    }
+  }
+}

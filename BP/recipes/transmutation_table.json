@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:transmutation_table"
+    },
+    "key": {
+      "x": {
+        "item": "obsidian"
+      },
+      "l":{
+        "item": "stone",
+        "data": 0
+      },
+      "d":{
+        "item": "projecte:philosophers_stone"
+      }
+    },
+    "pattern": [
+      "xlx",
+      "ldl",
+      "xlx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:transmutation_table"
+      }
+    ]
+  }
+}

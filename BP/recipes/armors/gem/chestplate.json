@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:infernal_chestplate"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter_chestplate"
+      },
+      "d":{
+        "item": "projecte:klein_star_6"
+      },
+      "z":{
+        "item": "projecte:volcanite_amulet"
+      },
+      "c":{
+        "item": "projecte:body_stone"
+      }
+    },
+    "pattern": [
+      "xdz",
+      "c"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:red_matter_chestplate"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:infernal_chestplate"
+      }
+    ]
+  }
+}

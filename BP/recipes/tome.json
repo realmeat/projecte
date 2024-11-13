@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:tome"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:philosophers_stone"
+      },
+      "l":{
+        "item": "book"
+      },
+      "d":{
+        "item": "redstone"
+      },
+      "s":{
+        "item": "glowstone_dust"
+      },
+      "t":{
+        "item": "lapis_lazuli"
+      }
+    },
+    "pattern": [
+      "xlt",
+      "sd"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:tome"
+      },
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ]
+  }
+}

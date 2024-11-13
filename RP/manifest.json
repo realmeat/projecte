@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "作者:Ramcor14,汉化:B站Minecraft菠萝君",
+        "name": "[菠萝汉化]等价交换ProjectE.V2.0.0",
+        "uuid": "b94dadc9-348e-4136-ad2b-e418cdcad203",
+        "version": [2, 0, 0],
+        "min_engine_version": [1, 20, 60]
+    },
+    "modules": [
+        {
+            "description": "By: Ramcor14",
+            "type": "resources",
+            "uuid": "bb38bf12-18f7-4689-b3f8-0589156e64fb",
+            "version": [2, 0, 0]
+        }
+    ],
+    "capabilities": [
+        "pbr"
+    ],
+     "dependencies": [
+        {
+            "uuid": "0689bfd9-e985-44ed-9d2c-8ddca85210e9", 
+            "version": [2, 0, 0]
+        }
+    ]
+}

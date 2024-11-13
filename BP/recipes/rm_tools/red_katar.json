@@ -1,0 +1,50 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:red_katar"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter"
+      },
+      "t": {
+        "item": "projecte:rm_sword"
+      },
+      "z": {
+        "item": "projecte:rm_shears"
+      },
+      "c": {
+        "item": "projecte:rm_axe"
+      },
+      "d":{
+        "item": "projecte:rm_hoe"
+      }
+    },
+    "pattern": [
+      "ctd",
+      "zxx",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:rm_sword"
+      },
+      {
+        "item": "projecte:rm_shears"
+      },
+      {
+        "item": "projecte:rm_axe"
+      },
+      {
+        "item": "projecte:rm_hoe"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:red_katar"
+      }
+    ]
+  }
+}

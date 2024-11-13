@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:abyss_helmet"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter_helmet"
+      },
+      "d":{
+        "item": "projecte:klein_star_6"
+      },
+      "z":{
+        "item": "projecte:evertide_amulet"
+      },
+      "c":{
+        "item": "projecte:soul_stone"
+      }
+    },
+    "pattern": [
+      "xdz",
+      "c"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:red_matter_helmet"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:abyss_helmet"
+      }
+    ]
+  }
+}

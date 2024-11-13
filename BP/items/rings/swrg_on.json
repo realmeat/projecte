@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "projecte:swrg_on",
+            "menu_category": {
+                "group": "itemGroup.name.rings",
+                "category": "none",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "projecte_swrg_on1"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "SwiftWolf's Rending Gale"
+            },
+            "minecraft:max_stack_size": {
+                "value": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "projecte:pedestal",
+            "materials": {
+                "default": "enderman_invisible"
+              },
+              "animations": {
+                "basic": "animation.item_float.float"
+              },
+              "scripts": {
+                "initialize": [
+                    "v.x_rot = 0; v.z_rot = 0; v.rot_rate = 20;"
+                ],
+                "animate": [
+                  "basic"
+                ]
+              },
+              "textures": {
+                "default": "textures/textures/blocks/acacia_trapdoor"
+              },
+              "geometry": {
+                "default": "geometry.item_float"
+              },
+              "enable_attachables": false,
+              "render_controllers": ["controller.render.default"]
+        }
+    }
+}

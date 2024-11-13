@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "projecte:transmutation_table_display",
+            "materials": {
+                "default": "slime_outer"
+            },
+            "animations": {
+                "default": "animation.book.default",
+                "closed": "animation.book.closed",
+                "upperdown": "animation.book.upperdown",
+                "closedRotation": "animation.book.closedRotation",
+                "openedRotation": "animation.book.openedRotation",
+                "basic": "controller.animation.book.work",
+                "openandclose": "controller.animation.book.active"
+            },
+            "geometry": {
+                "default": "geometry.book",
+                "block": "geometry.transmutation_table"
+            },
+            "particle_effects": {
+                "glow": "projecte:glow_particle"
+            },
+            "textures": {
+                "default": "textures/entity/book"
+            },
+            "scripts": {
+                "initialize": [
+                    "v.book_rotation;"
+                ],
+                "animate": [
+                    {"basic": "q.property('projecte:book') == true"},
+                    {"openandclose": "q.property('projecte:book') == true"}
+                ]
+            },
+            "render_controllers": [
+               { "controller.render.default": "q.property('projecte:book')"}
+            ]
+        }
+    }
+}

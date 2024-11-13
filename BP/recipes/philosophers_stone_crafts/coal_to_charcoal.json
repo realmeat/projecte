@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:coal"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:philosophers_stone"
+      },
+      "l":{
+        "item": "coal"
+      }
+    },
+    "pattern": [
+      "xl"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ],
+    "result": [
+      {
+        "item": "charcoal",
+        "count": 4
+      },
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ]
+  }
+}

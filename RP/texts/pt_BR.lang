@@ -1,0 +1,22 @@
+## Item Config
+itemconfig.config_title=Configuraçao da Ferramenta
+itemconfig.tool_level=Nivel da Ferramenta
+itemconfig.use_mode=Modo de Uso
+itemconfig.destroy_mode=Modo de Destruiçao
+itemconfig.default_use=Padrão
+itemconfig.transmutation_use=Transmutação
+itemconfig.impact_mode=Impacto em Area
+itemconfig.vein_mode=Veia
+itemconfig.black_hole=Buraco Negro
+itemconfig.solar_burn=Estrela Explosiva
+itemconfig.range_attack=Ataque em Area
+itemconfig.earth_shake=Tremores Terrestre
+game.player_stunned=Tempo de recarga do ataque: 
+game.attack_delay_over=Tempo de recarga finalizado
+##Rings
+item.mode=Modo Selecionado: 
+item.mode.default=Padrão
+item.mode.multi_shoot=Tiro Multiplo
+item.mode.off=Desativado
+item.mode.sphere_shoot=Tiro Esferico
+item.mode.drop_mode=Drop

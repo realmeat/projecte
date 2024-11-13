@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.destroy_block": {
+      "geometry": "Geometry.block",
+      "materials": [ { "*": "Material.default" } ],
+      "arrays": {
+        "textures": {
+          "array.destroy": [
+            "texture.destroy_0",
+            "texture.destroy_1",
+            "texture.destroy_2",
+            "texture.destroy_3",
+            "texture.destroy_4",
+            "texture.destroy_5",
+            "texture.destroy_6",
+            "texture.destroy_7",
+            "texture.destroy_8",
+            "texture.destroy_9"
+          ]
+        }
+      },
+      "textures": [ "array.destroy[q.property('projecte:destroy_stage')]" ]
+    }
+  }
+}

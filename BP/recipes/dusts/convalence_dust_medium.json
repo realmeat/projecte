@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "projecte:convalence_dust_medium"
+    },
+    "ingredients": [
+      {
+        "item": "iron_ingot"
+      },
+      {
+        "item": "redstone"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "iron_ingot"
+      },
+      {
+        "item": "redstone"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:convalence_dust_medium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:iron_band_2"
+    },
+    "key": {
+      "x": {
+        "item": "iron_ingot"
+      },
+      "d":{
+        "item": "projecte:volcanite_amulet"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "xdx",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:iron_band"
+      },
+      {
+        "item": "projecte:volcanite_amulet"
+      }
+      
+    ]
+  }
+}

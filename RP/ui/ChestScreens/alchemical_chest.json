@@ -1,0 +1,44 @@
+{
+  "namespace": "alchemical_chest",
+  "ui_title":{
+    "type": "label",
+    "text": "Alchemical Chest",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 6, -3 ],
+    "color": "$title_text_color"
+  },
+  "grid": {
+    "type": "grid",
+    "size": [ 234, 144 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 13, 8 ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "50% - 12px"
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "title@alchemical_chest.ui_title": {
+        }
+      },
+      {
+        "grid@alchemical_chest.grid":{
+          "offset": [9, 12]
+        }
+      }
+    ]
+  }
+}

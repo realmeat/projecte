@@ -1,0 +1,73 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "projecte:transmutation_table_display",
+            "is_summonable": true,
+            "properties": {
+                "projecte:destroy_stage": {
+                    "client_sync": true,
+                    "default": -1,
+                    "range": [-1, 9],
+                    "type": "int"
+                },
+                "projecte:book": {
+                    "client_sync": true,
+                    "default": false,
+                    "type": "bool"
+                }
+            }
+        },
+        "component_groups": {},
+        "components": {
+            "minecraft:type_family": {
+                "family": ["inanimate"]
+            },
+            "minecraft:knockback_resistance": {
+                "value": 100,
+                "maximum": 100
+            },
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:inside_block_notifier": {
+                "block_list": [
+                    {
+                        "block": {
+                            "name": "air"
+                        },
+                        "entered_block_event": {
+                            "event": "projecte:remove",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:timer": {
+                "time": 0.4,
+                "looping": true,
+                "time_down_event": {
+                    "event": "projecte:transmutationPart",
+                    "target": "self"
+                }
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            }
+        },
+        "events": {
+            "projecte:transmutationPart":{},
+            "projecte:remove": {
+                "queue_command": {
+                    "command": "scriptevent projecte:despawn"
+                }
+            }
+        }
+    }
+}

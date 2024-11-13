@@ -1,0 +1,63 @@
+scriptevent projecte:register_item projecte:alchemical_coal 0 512
+scriptevent projecte:register_item projecte:tome 0 1408
+scriptevent projecte:register_item projecte:mobius_fuel 0 2048
+scriptevent projecte:register_item projecte:aeternalis_fuel 0 8192
+scriptevent projecte:register_item projecte:transmutation_table 0 260
+scriptevent projecte:register_item projecte:philosophers_stone 0 9938
+scriptevent projecte:register_item projecte:red_matter_boots 0 2424832
+scriptevent projecte:register_item projecte:red_matter_helmet 0 3031040
+scriptevent projecte:register_item projecte:red_matter_chestplate 0 4849664
+scriptevent projecte:register_item projecte:red_matter_leggings 0 4243456
+scriptevent projecte:register_item projecte:red_morning_star 0 7053312
+scriptevent projecte:register_item projecte:red_katar 0 7512064
+scriptevent projecte:register_item projecte:rm_pickaxe 0 1974272
+scriptevent projecte:register_item projecte:rm_axe 0 1974272
+scriptevent projecte:register_item projecte:rm_hoe 0 1368064
+scriptevent projecte:register_item projecte:rm_sword 0 1220608
+scriptevent projecte:register_item projecte:rm_shears 0 614400
+scriptevent projecte:register_item projecte:rm_shovel 0 761856
+scriptevent projecte:register_item projecte:red_matter 0 466944
+scriptevent projecte:register_item projecte:dark_matter_boots 0 557056
+scriptevent projecte:register_item projecte:dark_matter_helmet 0 696320
+scriptevent projecte:register_item projecte:dark_matter_chestplate 0 974848
+scriptevent projecte:register_item projecte:dark_matter_leggings 0 1114112
+scriptevent projecte:register_item projecte:rm_pickaxe 0 434176
+scriptevent projecte:register_item projecte:rm_hammer 0 303104
+scriptevent projecte:register_item projecte:rm_axe 0 434176
+scriptevent projecte:register_item projecte:rm_hoe 0 294912
+scriptevent projecte:register_item projecte:rm_sword 0 286720
+scriptevent projecte:register_item projecte:rm_shears 0 147456
+scriptevent projecte:register_item projecte:rm_shovel 0 155648
+scriptevent projecte:register_item projecte:dark_matter 0 139264
+scriptevent projecte:register_item projecte:alchemical_chest 0 8987
+scriptevent projecte:register_item projecte:energy_condenser_mk1 0 42011
+##Rings
+scriptevent projecte:register_item projecte:archangel_smite 0 280828
+scriptevent projecte:register_item projecte:black_hole_band 0 280612
+scriptevent projecte:register_item projecte:harvest_god 0 281528
+scriptevent projecte:register_item projecte:iron_band 0 2880
+scriptevent projecte:register_item projecte:ignition_ring 0 286544
+scriptevent projecte:register_item projecte:swrg 0 560128
+scriptevent projecte:register_item projecte:void_ring 0 1010697
+scriptevent projecte:register_item projecte:zero_ring 0 281412
+##Stones
+scriptevent projecte:register_item projecte:body_stone 0 934944
+scriptevent projecte:register_item projecte:mind_stone 0 935328
+scriptevent projecte:register_item projecte:life_stone 0 1872000
+scriptevent projecte:register_item projecte:soul_stone 0 412768
+##Relics
+scriptevent projecte:register_item projecte:dense_gem 0 319616
+scriptevent projecte:register_item projecte:volcanite_amulet 0 422784
+scriptevent projecte:register_item projecte:evertide_amulet 0 422406
+##stars
+scriptevent projecte:register_item projecte:klein_star_1 0 24576
+scriptevent projecte:register_item projecte:klein_star_2 0 98304
+scriptevent projecte:register_item projecte:klein_star_3 0 393216
+scriptevent projecte:register_item projecte:klein_star_4 0 1572864
+scriptevent projecte:register_item projecte:klein_star_5 0 6291456
+scriptevent projecte:register_item projecte:klein_star_6 0 25165824
+##Gem
+scriptevent projecte:register_item projecte:hurricane_boots 0 79910912
+scriptevent projecte:register_item projecte:abyss_helmet 0 80333920
+scriptevent projecte:register_item projecte:infernal_chestplate 0 82573216
+scriptevent projecte:register_item projecte:gravity_leggings 0 81497408

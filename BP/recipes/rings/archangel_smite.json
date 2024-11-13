@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:archangel_smite"
+    },
+    "key": {
+      "x": {
+        "item": "feather"
+      },
+      "z": {
+        "item": "bow"
+      },
+      "a": {
+        "item": "projecte:dark_matter"
+      },
+      "d":{
+        "item": "projecte:iron_band"
+      }
+    },
+    "pattern": [
+      "zxz",
+      "ada",
+      "zxz"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:iron_band"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:archangel_smite"
+      }
+    ]
+  }
+}

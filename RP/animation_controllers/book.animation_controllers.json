@@ -1,0 +1,56 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.book.work": {
+			"states": {
+				"default": {
+					"animations": ["closedRotation", "upperdown"],
+					"on_entry": ["v.book_rotation = query.rotation_to_camera(1);"],
+					"on_exit": ["v.book_rotation = query.rotation_to_camera(1);"],
+					"particle_effects": [
+						{
+							"effect": "",
+							"bind_to_actor": false
+						}
+					],
+					"transitions": [
+						{"open": "q.distance_from_camera <= 5"}
+					]
+				},
+				"open": {
+					"animations": ["upperdown", "openedRotation"],
+					"on_entry": ["v.book_rotation = query.rotation_to_camera(1);"],
+					"on_exit": [],
+					"particle_effects": [
+						{
+							"effect": "",
+							"bind_to_actor": false
+						}
+					],
+					"transitions": [
+						{"default": "q.distance_from_camera > 5"}
+					],
+					"blend_transition": 0.4
+				}
+			}
+		},
+		"controller.animation.book.active": {
+			"states": {
+				"default": {
+					"animations": ["closed"],
+					"transitions": [
+						{"open": "q.distance_from_camera <= 5"}
+					],
+					"blend_transition": 0.4
+				},
+				"open": {
+					"animations": ["default"],
+					"transitions": [
+						{"default": "q.distance_from_camera > 5"}
+					],
+					"blend_transition": 0.4
+				}
+			}
+		}
+	}
+}

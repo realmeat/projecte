@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:dark_matter_hammer"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:dark_matter"
+      },
+      "d":{
+        "item": "diamond"
+      }
+    },
+    "pattern": [
+      "xdx",
+      " d ",
+      " d "
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "result": [
+      {
+        "item": "projecte:dm_hammer"
+      }
+    ]
+  }
+}

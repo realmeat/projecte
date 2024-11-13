@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:lava_bucket"
+    },
+    "key": {
+      "x": {
+        "item": "bucket"
+      },
+      "r": {
+        "item": "redstone"
+      },
+      "d":{
+        "item": "projecte:volcanite_amulet"
+      }
+    },
+    "pattern": [
+      "dxr"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:volcanite_amulet"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "lava_bucket"
+      },
+      {
+        "item": "projecte:volcanite_amulet"
+      }
+      
+    ]
+  }
+}

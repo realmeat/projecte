@@ -1,0 +1,47 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:alchemical_chest"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:convalence_dust_low"
+      },
+      "l":{
+        "item": "projecte:convalence_dust_medium"
+      },
+      "y":{
+        "item": "projecte:convalence_dust_high"
+      },
+      "d":{
+        "item": "stone"
+      },
+      "c":{
+        "item": "chest"
+      },
+      "i":{
+        "item": "iron_ingot"
+      },
+      "g":{
+        "item": "diamond"
+      }
+    },
+    "pattern": [
+      "xly",
+      "dgd",
+      "ici"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "chest"
+      }
+    ],
+    "result": [
+      {
+        "item": "projecte:alchemical_chest"
+      }
+    ]
+  }
+}

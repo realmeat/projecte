@@ -1,0 +1,17 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.arch_arrow.move" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation" : [ "q.property('projecte:rot_x')", "q.property('projecte:rot_y')", 0.0 ],
+					"scale" : [ 0.7, 0.7, 0.9 ]
+				}
+			}
+		}
+	}
+}

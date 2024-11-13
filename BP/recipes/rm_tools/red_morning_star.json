@@ -1,0 +1,44 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:red_morning_star"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter"
+      },
+      "z": {
+        "item": "projecte:rm_pickaxe"
+      },
+      "c": {
+        "item": "projecte:rm_shovel"
+      },
+      "d":{
+        "item": "projecte:rm_shovel"
+      }
+    },
+    "pattern": [
+      "cxd",
+      "zxx",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:rm_shovel"
+      },
+      {
+        "item": "projecte:rm_shovel"
+      },
+      {
+        "item": "projecte:rm_pickaxe"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:red_morning_star"
+      }
+    ]
+  }
+}

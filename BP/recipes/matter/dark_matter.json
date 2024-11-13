@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:dark_matter"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:aeternalis_fuel"
+      },
+      "d":{
+        "item": "diamond_block"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "xdx",
+      "xxx"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:aeternalis_fuel"
+      }
+    ],
+    "result": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ]
+  }
+}

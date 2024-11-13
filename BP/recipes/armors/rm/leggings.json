@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:red_matter_leggings"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:dark_matter_leggings"
+      },
+      "d":{
+        "item": "projecte:red_matter"
+      }
+    },
+    "pattern": [
+      "ddd",
+      "dxd",
+      "d d"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:red_matter"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:red_matter_leggings"
+      }
+    ]
+  }
+}

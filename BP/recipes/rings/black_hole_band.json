@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:black_hole_band"
+    },
+    "key": {
+      "x": {
+        "item": "string"
+      },
+      "a": {
+        "item": "projecte:dark_matter"
+      },
+      "d":{
+        "item": "projecte:iron_band"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "ada",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:iron_band"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:black_hole_band"
+      }
+    ]
+  }
+}

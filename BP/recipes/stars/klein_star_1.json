@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:klein_star_1"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:mobius_fuel"
+      },
+      "d":{
+        "item": "diamond"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "xdx",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:mobius_fuel"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:klein_star_1"
+      }
+    ]
+  }
+}

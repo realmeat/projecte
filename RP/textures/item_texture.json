@@ -1,0 +1,267 @@
+{
+	"resource_pack_name": "Project EHD",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"projecte_tome": {
+			"textures": "textures/items/tome"
+		},
+		"projecte_empty": {
+			"textures": "textures/items/empty"
+		},
+		"projecte_philosophers_stone": {
+			"textures": "textures/items/philosophers_stone"
+		},
+		//Armors
+		"projecte_dm_helmet": {
+			"textures": "textures/items/dark_armor/head"
+		},
+		"projecte_dm_chestplate": {
+			"textures": "textures/items/dark_armor/chest"
+		},
+		"projecte_dm_leggings": {
+			"textures": "textures/items/dark_armor/legs"
+		},
+		"projecte_dm_boots": {
+			"textures": "textures/items/dark_armor/feet"
+		},
+		"projecte_rm_helmet": {
+			"textures": "textures/items/red_armor/head"
+		},
+		"projecte_rm_chestplate": {
+			"textures": "textures/items/red_armor/chest"
+		},
+		"projecte_rm_leggings": {
+			"textures": "textures/items/red_armor/legs"
+		},
+		"projecte_rm_boots": {
+			"textures": "textures/items/red_armor/feet"
+		},
+		"projecte_gem_helmet": {
+			"textures": "textures/items/gem_armor/head"
+		},
+		"projecte_gem_chestplate": {
+			"textures": "textures/items/gem_armor/chest"
+		},
+		"projecte_gem_leggings": {
+			"textures": "textures/items/gem_armor/legs"
+		},
+		"projecte_gem_boots": {
+			"textures": "textures/items/gem_armor/feet"
+		},
+		//Weapons
+		"projecte_dm_sword": {
+			"textures": "textures/items/dark_tools/sword"
+		},
+		"projecte_dm_pickaxe": {
+			"textures": "textures/items/dark_tools/pickaxe"
+		},
+		"projecte_dm_axe": {
+			"textures": "textures/items/dark_tools/axe"
+		},
+		"projecte_dm_shears": {
+			"textures": "textures/items/dark_tools/shears"
+		},
+		"projecte_dm_shovel": {
+			"textures": "textures/items/dark_tools/shovel"
+		},
+		"projecte_dm_hoe": {
+			"textures": "textures/items/dark_tools/hoe"
+		},
+		"projecte_dm_hammer": {
+			"textures": "textures/items/dark_tools/hammer"
+		},
+		"projecte_rm_sword": {
+			"textures": "textures/items/red_tools/sword"
+		},
+		"projecte_rm_pickaxe": {
+			"textures": "textures/items/red_tools/pickaxe"
+		},
+		"projecte_rm_axe": {
+			"textures": "textures/items/red_tools/axe"
+		},
+		"projecte_rm_shears": {
+			"textures": "textures/items/red_tools/shears"
+		},
+		"projecte_rm_shovel": {
+			"textures": "textures/items/red_tools/shovel"
+		},
+		"projecte_rm_hoe": {
+			"textures": "textures/items/red_tools/hoe"
+		},
+		"projecte_rm_hammer": {
+			"textures": "textures/items/red_tools/hammer"
+		},
+		"projecte_rm_katar": {
+			"textures": "textures/items/red_tools/katar"
+		},
+		"projecte_rm_morning_star": {
+			"textures": "textures/items/red_tools/morning_star"
+		},
+		//Aumelts
+		"projecte_volcanite_amulet": {
+			"textures": "textures/items/rings/volcanite_amulet"
+		},
+		"projecte_evertide_amulet": {
+			"textures": "textures/items/rings/evertide_amulet"
+		},
+		"projecte_mind_stone": {
+			"textures": "textures/items/rings/mind_stone_off"
+		},
+		"projecte_body_stone": {
+			"textures": "textures/items/rings/body_stone_off"
+		},
+		"projecte_soul_stone": {
+			"textures": "textures/items/rings/soul_stone_off"
+		},
+		"projecte_life_stone": {
+			"textures": "textures/items/rings/life_stone_off"
+		},
+		//Rings
+		"projecte_time_watch": {
+			"textures": "textures/items/rings/black_hole_off"
+		},
+		"projecte_black_hole_ring": {
+			"textures": "textures/items/rings/black_hole_off"
+		},
+		"projecte_black_hole_ring_on": {
+			"textures": "textures/items/rings/black_hole_on"
+		},
+		"projecte_archangel_smite": {
+			"textures": "textures/items/rings/archangel_smite"
+		},
+		"projecte_harvest_god": {
+			"textures": "textures/items/rings/harvest_god_off"
+		},
+		"projecte_harvest_god_on": {
+			"textures": "textures/items/rings/harvest_god_on"
+		},
+		"projecte_zero_ring": {
+			"textures": "textures/items/rings/zero_off"
+		},
+		"projecte_zero_ring_on": {
+			"textures": "textures/items/rings/zero_on"
+		},
+		"projecte_ignition_ring": {
+			"textures": "textures/items/rings/ignition_off"
+		},
+		"projecte_ignition_ring_on": {
+			"textures": "textures/items/rings/ignition_on"
+		},
+		"projecte_void_ring": {
+			"textures": "textures/items/rings/void_off"
+		},
+		"projecte_void_ring_on": {
+			"textures": "textures/items/rings/void_on"
+		},
+		"projecte_swrg": {
+			"textures": "textures/items/rings/swrg_off"
+		},
+		"projecte_swrg_on1": {
+			"textures": "textures/items/rings/swrg_on1"
+		},
+		"projecte_swrg_on2": {
+			"textures": "textures/items/rings/swrg_on2"
+		},
+		"projecte_swrg_on3": {
+			"textures": "textures/items/rings/swrg_on3"
+		},
+		"projecte_arcana_ring": {
+			"textures": "textures/items/rings/arcana_0"
+		},
+		"projecte_arcana_ring_1": {
+			"textures": "textures/items/rings/arcana_0_on"
+		},
+		"projecte_arcana_ring_2": {
+			"textures": "textures/items/rings/arcana_1_on"
+		},
+		"projecte_arcana_ring_3": {
+			"textures": "textures/items/rings/arcana_3_on"
+		},
+		"projecte_iron_band": {
+			"textures": "textures/items/rings/iron_band"
+		},
+		//Dusts
+		"projecte_convalence_dust_low": {
+			"textures": {
+				"path": "textures/items/dust_template",
+				"tint_color": "#00ff08"
+			}
+		},
+		"projecte_convalence_dust_medium": {
+			"textures": {
+				"path": "textures/items/dust_template",
+				"tint_color": "#00d9ff"
+			}
+		},
+		"projecte_convalence_dust_high": {
+			"textures": {
+				"path": "textures/items/dust_template",
+				"tint_color": "#0000ff"
+			}
+		},
+		//Gems
+		"projecte_dense_gem": {
+			"textures": {
+				"path": "textures/items/dense_gem_off"
+			}
+		},
+		//Stars
+		"projecte_klein_star_1": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_1"
+			}
+		},
+		"projecte_klein_star_2": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_2"
+			}
+		},
+		"projecte_klein_star_3": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_3"
+			}
+		},
+		"projecte_klein_star_4": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_4"
+			}
+		},
+		"projecte_klein_star_5": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_5"
+			}
+		},
+		"projecte_klein_star_6": {
+			"textures": {
+				"path": "textures/items/stars/klein_star_6"
+			}
+		},
+		//Matter
+		"projecte_dark_matter": {
+			"textures": {
+				"path": "textures/items/matter/dark"
+			}
+		},
+		"projecte_red_matter": {
+			"textures": {
+				"path": "textures/items/matter/red"
+			}
+		},
+		//Fuels
+		"projecte_aeternalis_coal": {
+			"textures": {
+				"path": "textures/items/coal/aeternalis"
+			}
+		},
+		"projecte_alchemical_coal": {
+			"textures": {
+				"path": "textures/items/coal/alchemical"
+			}
+		},
+		"projecte_mobius_coal": {
+			"textures": {
+				"path": "textures/items/coal/mobius"
+			}
+		}
+	}
+}

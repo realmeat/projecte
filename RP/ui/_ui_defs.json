@@ -1,0 +1,9 @@
+{
+  "ui_defs": [
+    "ui/ChestScreens/transmutation_table.json",
+    "ui/ChestScreens/alchemical_chest.json",
+    "ui/ChestScreens/energy_condenser_mk2.json",
+    "ui/ChestScreens/condenser_common.json",
+    "ui/ServerScreens/void_ring_screen.json"
+  ]
+}

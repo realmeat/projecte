@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:evertide_amulet"
+    },
+    "key": {
+      "x": {
+        "item": "water_bucket"
+      },
+      "l":{
+        "item": "projecte:dark_matter"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "lll",
+      "xxx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:evertide_amulet"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:gravity_leggings"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter_leggings"
+      },
+      "d":{
+        "item": "projecte:klein_star_6"
+      },
+      "z":{
+        "item": "projecte:dense_gem"
+      },
+      "c":{
+        "item": "feather"
+      }
+    },
+    "pattern": [
+      "xdz",
+      "c"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:red_matter_leggings"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:gravity_leggings"
+      }
+    ]
+  }
+}

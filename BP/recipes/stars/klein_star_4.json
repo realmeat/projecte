@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:klein_star_4"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:klein_star_3"
+      }
+    },
+    "pattern": [
+      "xx",
+      "xx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:klein_star_3"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:klein_star_4"
+      }
+    ]
+  }
+}

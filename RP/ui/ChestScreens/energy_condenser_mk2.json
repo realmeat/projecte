@@ -1,0 +1,143 @@
+{
+  "namespace": "energy_condenser_mk2",
+  "ui_title":{
+    "type": "label",
+    "text": "Energy Condenser",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 6, -3 ],
+    "color": "$title_text_color"
+  },
+  "input_slot": {
+    "type": "stack_panel",
+    "$index": 0,
+    "$collection_name": "collection",
+    "collection_name": "$collection_name",
+    "$slot_size": [
+      18,
+      18
+    ],
+    "$slot_image_size": [
+      18,
+      18
+    ],
+    "controls": [
+      {
+        "slot@chest.chest_grid_item": {
+          "ignored": false,
+          "$cell_image_size": "$slot_image_size",
+          "size": "$slot_size",
+          "collection_index": "$index"
+        }
+      }
+    ]
+  },
+  "valid_slo2t": {
+    "type": "stack_panel",
+    "$index": 0,
+    "$collection_name": "collection",
+    "collection_name": "$collection_name",
+    "size": [116, 14],
+    "controls": [
+      {
+        "fill": {
+          "type": "image",
+          "collection_index": "$index",
+          "layer": 1,
+          "texture": "textures/gui/condenser_bar_fill",
+          "size": [116, 14],
+          "clip_direction": "right",
+          "property_bag": {
+            "#search": "116",
+            "#active": false,
+            "#current_value": 0.0
+          },
+          "bindings": [
+            {
+              "binding_name": "#hover_text",
+              "binding_type": "collection",
+              "binding_condition": "always",
+              "binding_collection_name": "$collection_name"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(((#hover_text - #search) = #hover_text) and (not ((#search - ' ') = '')))",
+              "target_property_name": "#active"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#active))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "condenser_grid": {
+    "type": "grid",
+    "size": [ 234, 126 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 13, 7 ],
+    "grid_item_template": "chest.chest_grid_item",
+    "collection_name": "container_items"
+  },
+  "top_half": {
+    "type": "panel",
+    "size": [
+      "100%",
+      "50% - 12px"
+    ],
+    "offset": [
+      0,
+      7
+    ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "title@energy_condenser_mk2.ui_title": {
+        }
+      },
+      {
+        "filter_slot@energy_condenser_mk2.input_slot":{
+          "$index": 91,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$collection_name": "container_items",
+          "offset": [9, 8]
+        }
+      },
+      {
+        "bar_bg": {
+          "type": "image",
+          "layer": 3,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "texture": "textures/gui/condenser_bar_bg",
+          "uv_size": [
+            "100%",
+            "100%"
+          ],
+          "clip_direction": "left",
+          "clip_ratio": 0.001,
+          "size": [116, 14],
+          "offset": [28, 9]
+        }
+      },
+      {
+        "panelbar@condenser_common.condenser_bar_panel":{
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [28, 9]
+        }
+      },
+      {
+        "grid@energy_condenser_mk2.condenser_grid":{
+          "offset": [9, 28]
+        }
+      }
+    ]
+  }
+}

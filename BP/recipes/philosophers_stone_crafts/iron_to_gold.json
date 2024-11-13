@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:iron_to_gold"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:philosophers_stone"
+      },
+      "l":{
+        "item": "iron_ingot"
+      }
+    },
+    "pattern": [
+      "xll",
+      "lll",
+      "lll"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ],
+    "result": [
+      {
+        "item": "gold_ingot"
+      },
+      {
+        "item": "projecte:philosophers_stone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:red_matter"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:aeternalis_fuel"
+      },
+      "d":{
+        "item": "projecte:dark_matter"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "ddd",
+      "xxx"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "result": [
+      {
+        "item": "projecte:red_matter"
+      }
+    ]
+  }
+}

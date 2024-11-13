@@ -1,0 +1,116 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.item_float.float": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [0, 360, 0]
+					},
+					"position": [0, 3, 0]
+				},
+				// "rightitem": {
+				// 	"rotation": [80, 10, -15]
+				// },
+				"effect": {
+					"rotation": [0, 0, 0],
+					"position": {
+						"0.0": {
+							"post": [-7, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [0, 0, -6],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [6, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [0, 0, 5],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [-7, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0833": {
+					"effect": "enchant",
+					"locator": "enchant"
+				},
+				"0.75": {
+					"effect": "enchant",
+					"locator": "enchant"
+				},
+				"1.3333": {
+					"effect": "enchant",
+					"locator": "enchant"
+				}
+			}
+		},
+		"animation.item_float.block": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [0, 360, 0]
+					},
+					"position": [0, 3, 0]
+				},
+				"rightitem": {
+					"position": [0.2,1,0],
+					"rotation": [-20, 0, 0]
+				},
+				"effect": {
+					"rotation": [0, 0, 0],
+					"position": {
+						"0.0": {
+							"post": [-7, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [0, 0, -6],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [6, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.1667": {
+							"post": [0, 0, 5],
+							"lerp_mode": "catmullrom"
+						},
+						"1.5": {
+							"post": [-7, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0833": {
+					"effect": "enchant",
+					"locator": "enchant"
+				},
+				"0.75": {
+					"effect": "enchant",
+					"locator": "enchant"
+				},
+				"1.3333": {
+					"effect": "enchant",
+					"locator": "enchant"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:dark_matter_boots"
+    },
+    "key": {
+      "d":{
+        "item": "projecte:dark_matter"
+      }
+    },
+    "pattern": [
+      "d d",
+      "d d"
+    ],
+    "tags": ["crafting_table"],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "result": [
+      {
+        "item": "projecte:dark_matter_boots"
+      }
+    ]
+  }
+}

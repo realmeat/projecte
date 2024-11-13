@@ -1,0 +1,17 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "projecte:empty_slot",
+            "category": "commands"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "§8[Empty]"
+            },
+            "minecraft:icon": {
+                "texture": "projecte_empty"
+            }
+        }
+    }
+}

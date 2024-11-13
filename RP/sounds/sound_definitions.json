@@ -1,0 +1,46 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+      "item.pecharge": {
+        "category": "block",
+        "max_distance": 80.0,
+        "sounds": [
+          {
+            "name": "sounds/projecte/pecharge",
+            "volume": 0.3
+          }
+          
+        ]
+      },
+      "item.pedestruct": {
+        "category": "block",
+        "max_distance": 80.0,
+        "sounds": [
+          {
+            "name": "sounds/projecte/pedestruct",
+            "volume": 0.3
+          }
+        ]
+      },
+      "item.petransmute": {
+        "category": "block",
+        "max_distance": 80.0,
+        "sounds": [
+          {
+            "name": "sounds/projecte/petransmute",
+            "volume": 0.3
+          }
+        ]
+      },
+      "item.peuncharge": {
+        "category": "block",
+        "max_distance": 80.0,
+        "sounds": [
+          {
+            "name": "sounds/projecte/peuncharge",
+            "volume": 0.3
+          }
+        ]
+      }
+    }
+}

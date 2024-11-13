@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "projecte:harvest_god_on",
+            "menu_category": {
+                "group": "itemGroup.name.rings",
+                "category": "none",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "projecte_harvest_god_on"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Harvest God"
+            },
+            "minecraft:max_stack_size": {
+                "value": 1
+            }
+        }
+    }
+}

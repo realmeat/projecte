@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:void_ring"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter",
+        "data": 0
+      },
+      "z": {
+        "item": "projecte:dense_gem"
+      },
+      "d":{
+        "item": "projecte:black_hole_band"
+      }
+    },
+    "pattern": [
+      "dz",
+      "xx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:black_hole_band"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:void_ring"
+      }
+    ]
+  }
+}

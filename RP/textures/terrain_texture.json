@@ -1,0 +1,29 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "Project EHD",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"transmutation_table_top": {
+			"textures": "textures/blocks/transmutation_table/top"
+		},
+		"transmutation_table_bottom": {
+			"textures": "textures/blocks/transmutation_table/bottom"
+		},
+		"transmutation_table_side": {
+			"textures": "textures/blocks/transmutation_table/side"
+		},
+		"alchemical_chest": {
+			"textures": "textures/blocks/alchemical_chest"
+		},
+		"energy_condenser_mk1": {
+			"textures": "textures/blocks/energy_condenser_mk1"
+		},
+		"dm_block": {
+			"textures": "textures/blocks/dm_block"
+		},
+		"rm_block": {
+			"textures": "textures/blocks/rm_block"
+		}
+	}
+}

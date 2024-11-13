@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:swrg"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:dark_matter",
+        "data": 0
+      },
+      "z": {
+        "item": "feather"
+      },
+      "d":{
+        "item": "projecte:iron_band"
+      }
+    },
+    "pattern": [
+      "zxz",
+      "xdx",
+      "zxz"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:iron_band"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:swrg"
+      }
+    ]
+  }
+}

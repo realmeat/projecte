@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:dark_matter_pickaxe"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:dark_matter"
+      },
+      "d":{
+        "item": "diamond"
+      }
+    },
+    "pattern": [
+      "xxx",
+      " d ",
+      " d "
+    ],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:dm_pickaxe"
+      }
+    ]
+  }
+}

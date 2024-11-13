@@ -1,0 +1,98 @@
+## Item Config
+itemconfig.config_title=Tool Configuration
+itemconfig.tool_level=Tool Level
+itemconfig.use_mode=Use Mode
+itemconfig.destroy_mode=Destroy Mode
+itemconfig.default_use=Default
+itemconfig.transmutation_use=Trasnmutation
+itemconfig.impact_mode=Impact
+itemconfig.vein_mode=Vein
+itemconfig.black_hole=Black Hole
+itemconfig.solar_burn=Solar Burn
+itemconfig.range_attack=Range Attack
+itemconfig.earth_shake=Earth Shake
+game.player_stunned=Attack Cooldown:
+game.attack_delay_over=Attack Cooldown Over
+##Rings
+item.mode=Current Mode: 
+item.mode.default=Default
+item.mode.multi_shoot=Multi Shoot 
+item.mode.off=Disabled
+item.mode.sphere_shoot=Sphere Shoot 
+item.mode.drop_mode=Drop
+###Blocks
+tile.projecte:transmutation_table=§eTransmutation Table
+tile.projecte:alchemical_chest=Alchemical Chest
+tile.projecte:energy_condenser_mk1=§eEnergy Condenser §bMK1
+##Items
+item.projecte:dark_matter=Dark Matter
+item.projecte:dm_sword=Dark Matter Sword
+item.projecte:dm_pickaxe=Dark Matter Pickaxe
+item.projecte:dm_axe=Dark Matter Axe
+item.projecte:dm_shovel.=Dark Matter Shovel
+item.projecte:dm_hoe=Dark Matter Hoe
+item.projecte:dm_hammer=Dark Matter Hammer
+item.projecte:dm_shears=Dark Matter Shears
+item.projecte:dark_matter_helmet=Dark Matter Helmet
+item.projecte:dark_matter_chestplate=Dark Matter Chestplate
+item.projecte:dark_matter_leggings=Dark Matter Leggings
+item.projecte:dark_matter_boots=Dark Matter Boots
+
+item.projecte:red_matter=Red Matter
+item.projecte:rm_sword=Red Matter Sword
+item.projecte:rm_pickaxe=Red Matter Pickaxe
+item.projecte:rm_axe=Red Matter Axe
+item.projecte:rm_shovel=Red Matter Shovel
+item.projecte:rm_hoe=Red Matter Hoe
+item.projecte:rm_hammer=Red Matter Hammer
+item.projecte:rm_shears=Red Matter Shears
+item.projecte:red_katar=Red Katar
+item.projecte:red_morning_star=Red Morning Star
+item.projecte:red_matter_helmet=Red Matter Helmet
+item.projecte:red_matter_chestplate=Red Matter Chestplate
+item.projecte:red_matter_leggings=Red Matter Leggings
+item.projecte:red_matter_boots=Red Matter Boots
+##Convalece
+item.projecte:convalence_dust_low=Convalence Dust §a[Low]
+item.projecte:convalence_dust_medium=Convalence Dust §b[Medium]
+item.projecte:convalence_dust_high=Convalence Dust §1[High]
+##Rings
+item.projecte:archangel_smite=Archangel Smite
+item.projecte:black_hole_band=Black Hole Band
+item.projecte:black_hole_band_on=Black Hole Band
+item.projecte:zero_ring=Zero Ring
+item.projecte:zero_ring_on=Zero Ring
+item.projecte:ignition_ring=Ignition Ring
+item.projecte:void_ring=Void Ring
+item.projecte:void_ring_on=Void Ring
+item.projecte:harvest_god=Harvest Goddess Band
+item.projecte:harvest_god_on=Harvest Goddess Band
+item.projecte:swrg=SwiftWolf's Rending Gale
+item.projecte:swrg_on=SwiftWolf's Rending Gale
+##Relics
+item.projecte:evertide_amulet=Evertide Amulet
+item.projecte:volcanite_amulet=Volcanite Amulet
+item.projecte:mind_stone=Mind Stone
+item.projecte:soul_stone=Soul Stone
+item.projecte:body_stone=Body Stone
+item.projecte:life_stone=§eLife Stone
+item.projecte:dense_gem=Gem of Eternal Density
+##Fuels
+item.projecte:aeternalis_fuel=Aeternalis Fuel
+item.projecte:mobius_fuel=Mobius Fuel
+item.projecte:alchemical_coal=Alchemical Coal
+##Misc
+item.projecte:philosophers_stone=§uPhilosophers Stone
+item.projecte:tome=§eTome of Knowledge
+item.projecte:klein_star_1=§eKlein Star Ein
+item.projecte:klein_star_2=§eKlein Star Zwei
+item.projecte:klein_star_3=§eKlein Star Drei
+item.projecte:klein_star_4=§eKlein Star Vier
+item.projecte:klein_star_5=§eKlein Star Sphere
+item.projecte:klein_star_6=§eKlein Star Omega
+##Gem Armor
+item.projecte:abyss_helmet=§eAbyss Helmet
+item.projecte:infernal_chestplate=§eInfernal Armor
+item.projecte:gravity_leggings=§eGravity Greaves
+item.projecte:hurricane_boots=§eHurricane Boots
+

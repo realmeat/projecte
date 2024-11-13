@@ -1,0 +1,67 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "projecte:alchemical_chest",
+            "is_summonable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["inanimate"]
+            },
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:knockback_resistance": {
+                "value": 100,
+                "maximum": 100
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "width": 0.9,
+                        "height": 0.3,
+                        "pivot": [0, 0.73, 0]
+                    }
+                ]
+            },
+            "minecraft:inside_block_notifier": {
+                "block_list": [
+                    {
+                        "block": {
+                            "name": "air"
+                        },
+                        "entered_block_event": {
+                            "event": "projecte:remove",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:inventory": {
+                "inventory_size": 104,
+                "container_type": "inventory"
+            },
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": false,
+                "always_show": false
+            }
+        },
+        "events": {
+            "projecte:remove": {
+                "queue_command": {
+                    "command": "scriptevent projecte:despawn"
+                }
+            }
+        }
+    }
+}

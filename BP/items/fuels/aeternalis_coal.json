@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "projecte:aeternalis_fuel",
+            "menu_category": {
+                "group": "itemGroup.name.matter",
+                "category": "items",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "projecte_aeternalis_coal"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Aeternalis Fuel"
+            },
+            "minecraft:max_stack_size": {
+                "value": 64
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "projecte:fuel"
+                ]
+            }
+        }
+    }
+}

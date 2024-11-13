@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:energy_condenser_mk1"
+    },
+    "key": {
+      "x": {
+        "item": "obsidian"
+      },
+      "l":{
+        "item": "diamond",
+        "data": 0
+      },
+      "d":{
+        "item": "projecte:alchemical_chest"
+      }
+    },
+    "pattern": [
+      "xlx",
+      "ldl",
+      "xlx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:alchemical_chest"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:energy_condenser_mk1"
+      }
+    ]
+  }
+}

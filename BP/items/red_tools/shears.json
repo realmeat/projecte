@@ -1,0 +1,73 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "projecte:rm_shears",
+            "menu_category": {
+                "group": "itemGroup.name.shears",
+                "category": "equipment",
+                "is_hidden_in_commands": false
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "projecte_rm_shears"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Red Matter Shears"
+            },
+            "minecraft:max_stack_size": {
+                "value": 1
+            },
+            "minecraft:digger": {
+				"destroy_speeds": [
+					{"block": "minecraft:oak_leaves", "speed": 80},
+					{"block": "minecraft:acacia_leaves", "speed": 80},
+					{"block": "minecraft:spruce_leaves", "speed": 80},
+					{"block": "minecraft:jungle_leaves", "speed": 80},
+					{"block": "minecraft:dark_oak_leaves", "speed": 80},
+					{"block": "minecraft:birch_leaves", "speed": 80},
+					{"block": "minecraft:azalea_leaves", "speed": 80},
+					{"block": "minecraft:azalea_leaves_flowered", "speed": 80},
+					{"block": "minecraft:cherry_leaves", "speed": 80},
+					{"block": "minecraft:mangrove_leaves", "speed": 80},
+                    {"block": "minecraft:vine", "speed": 80},
+                    {"block": "minecraft:weeping_vines", "speed": 80},
+                    {"block": "minecraft:twisting_vines", "speed": 80},
+                    {"block": "minecraft:hanging_roots", "speed": 80},
+                    {"block": "minecraft:seagrass", "speed": 80},
+                    {"block": "minecraft:glow_lichen", "speed": 80},
+                    {"block": "minecraft:tallgrass", "speed": 80},
+                    {"block": "minecraft:trip_wire", "speed": 80},
+                    {"block": "minecraft:nether_sprouts", "speed": 80},
+                    {"block": "minecraft:web", "speed": 80},
+                    {"block": "minecraft:black_wool", "speed": 80},
+                    {"block": "minecraft:white_wool", "speed": 80},
+                    {"block": "minecraft:orange_wool", "speed": 80},
+                    {"block": "minecraft:red_wool", "speed": 80},
+                    {"block": "minecraft:magenta_wool", "speed": 80},
+                    {"block": "minecraft:purple_wool", "speed": 80},
+                    {"block": "minecraft:blue_wool", "speed": 80},
+                    {"block": "minecraft:light_blue_wool", "speed": 80},
+                    {"block": "minecraft:light_gray_wool", "speed": 80},
+                    {"block": "minecraft:gray_wool", "speed": 80},
+                    {"block": "minecraft:lime_wool", "speed": 80},
+                    {"block": "minecraft:green_wool", "speed": 80},
+                    {"block": "minecraft:yellow_wool", "speed": 80},
+                    {"block": "minecraft:pink_wool", "speed": 80},
+                    {"block": "minecraft:brown_wool", "speed": 80}
+				],
+				"use_efficiency": true
+			},
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_shears",
+                    "minecraft:digger",
+                    "minecraft:is_tool"
+                ]
+            }
+        }
+    }
+}

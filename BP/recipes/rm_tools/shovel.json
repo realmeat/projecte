@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:red_matter_shovel"
+    },
+    "key": {
+      "x": {
+        "item": "projecte:red_matter"
+      },
+      "t": {
+        "item": "projecte:dm_shovel"
+      },
+      "d":{
+        "item": "projecte:dark_matter"
+      }
+    },
+    "pattern": [
+      "x",
+      "t",
+      "d"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:red_matter"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:rm_shovel"
+      }
+    ]
+  }
+}

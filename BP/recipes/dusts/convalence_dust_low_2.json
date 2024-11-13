@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:convalence_dust_low_2"
+    },
+    "key": {
+      "z": {
+        "item": "charcoal"
+      },
+      "x": {
+        "item": "cobblestone"
+      }
+    },
+    "pattern": [
+      "xxx",
+      "xxx",
+      "xxz"
+    ],
+    "unlock": [
+      {
+        "item": "cobblestone"
+      },
+      {
+        "item": "charcoal"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:convalence_dust_low"
+      }
+    ]
+  }
+}

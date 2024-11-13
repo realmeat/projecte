@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "projecte:dense_gem"
+    },
+    "key": {
+      "x": {
+        "item": "diamond"
+      },
+      "z": {
+        "item": "obsidian"
+      },
+      "l":{
+        "item": "projecte:dark_matter"
+      }
+    },
+    "pattern": [
+      "xzx",
+      "lxl",
+      "xzx"
+    ],
+    "unlock": [
+      {
+        "item": "projecte:dark_matter"
+      }
+    ],
+    "tags": ["crafting_table"],
+    "result": [
+      {
+        "item": "projecte:dense_gem"
+      }
+    ]
+  }
+}

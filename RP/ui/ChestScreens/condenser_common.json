@@ -1,0 +1,773 @@
+{
+  "namespace": "condenser_common",
+  "bar_1": {
+    "type": "image",
+    "collection_index": 0,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 10,
+    "texture": "textures/gui/condenser_bar_fill",
+    "clip_direction": "left",
+    "clip_pixelperfect": true,
+    "keep_ratio": true,
+    "size": [
+        "100%",
+        "100%"
+    ],
+    "uv_size": [
+        "100%",
+        "100%"
+    ],
+    "property_bag": {
+      "#active": true,
+      "#name": "0.5"
+    },
+    "bindings": [
+      {
+          "binding_name": "#hover_text",
+          "binding_type": "collection",
+          "binding_condition": "always",
+          "binding_collection_name": "container_items"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(((#hover_text - #name) = #hover_text) and (not ((#name - ' ') = '')))",
+        "target_property_name": "#active"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not (#active))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "condenser_bar": {
+    "type": "stack_panel",
+    "$index": 0,
+    "$collection_name": "container_items",
+    "collection_name": "$collection_name",
+    "size": [116, 14]
+  },
+  "condenser_bar_panel": {
+    "type": "panel",
+    "size": [116, 14],
+    "controls": [
+        {
+          "filter_slot@condenser_common.condenser_bar": {
+            "$index": 92,
+            "size": [116, 14],
+            "controls": [
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.01,
+                    "property_bag": {"#active": true, "#name": "item:1.00"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.01,
+                    "property_bag": {"#active": true, "#name": "item:0.99"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.02,
+                    "property_bag": {"#active": true, "#name": "item:0.98"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.03,
+                    "property_bag": {"#active": true, "#name": "item:0.97"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.04,
+                    "property_bag": {"#active": true, "#name": "item:0.96"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.05,
+                    "property_bag": {"#active": true, "#name": "item:0.95"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.06,
+                    "property_bag": {"#active": true, "#name": "item:0.94"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.07,
+                    "property_bag": {"#active": true, "#name": "item:0.93"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.08,
+                    "property_bag": {"#active": true, "#name": "item:0.92"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.09,
+                    "property_bag": {"#active": true, "#name": "item:0.91"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.1,
+                    "property_bag": {"#active": true, "#name": "item:0.90"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.11,
+                    "property_bag": {"#active": true, "#name": "item:0.89"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.12,
+                    "property_bag": {"#active": true, "#name": "item:0.88"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.13,
+                    "property_bag": {"#active": true, "#name": "item:0.87"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.14,
+                    "property_bag": {"#active": true, "#name": "item:0.86"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.15,
+                    "property_bag": {"#active": true, "#name": "item:0.85"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.16,
+                    "property_bag": {"#active": true, "#name": "item:0.84"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.17,
+                    "property_bag": {"#active": true, "#name": "item:0.83"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.18,
+                    "property_bag": {"#active": true, "#name": "item:0.82"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.19,
+                    "property_bag": {"#active": true, "#name": "item:0.81"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.2,
+                    "property_bag": {"#active": true, "#name": "item:0.80"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.21,
+                    "property_bag": {"#active": true, "#name": "item:0.79"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.22,
+                    "property_bag": {"#active": true, "#name": "item:0.78"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.23,
+                    "property_bag": {"#active": true, "#name": "item:0.77"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.24,
+                    "property_bag": {"#active": true, "#name": "item:0.76"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.25,
+                    "property_bag": {"#active": true, "#name": "item:0.75"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.26,
+                    "property_bag": {"#active": true, "#name": "item:0.74"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.27,
+                    "property_bag": {"#active": true, "#name": "item:0.73"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.28,
+                    "property_bag": {"#active": true, "#name": "item:0.72"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.29,
+                    "property_bag": {"#active": true, "#name": "item:0.71"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.3,
+                    "property_bag": {"#active": true, "#name": "item:0.70"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.31,
+                    "property_bag": {"#active": true, "#name": "item:0.69"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.32,
+                    "property_bag": {"#active": true, "#name": "item:0.68"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.33,
+                    "property_bag": {"#active": true, "#name": "item:0.67"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.34,
+                    "property_bag": {"#active": true, "#name": "item:0.66"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.35,
+                    "property_bag": {"#active": true, "#name": "item:0.65"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.36,
+                    "property_bag": {"#active": true, "#name": "item:0.64"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.37,
+                    "property_bag": {"#active": true, "#name": "item:0.63"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.38,
+                    "property_bag": {"#active": true, "#name": "item:0.62"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.39,
+                    "property_bag": {"#active": true, "#name": "item:0.61"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.4,
+                    "property_bag": {"#active": true, "#name": "item:0.60"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.41,
+                    "property_bag": {"#active": true, "#name": "item:0.59"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.42,
+                    "property_bag": {"#active": true, "#name": "item:0.58"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.43,
+                    "property_bag": {"#active": true, "#name": "item:0.57"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.44,
+                    "property_bag": {"#active": true, "#name": "item:0.56"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.45,
+                    "property_bag": {"#active": true, "#name": "item:0.55"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.46,
+                    "property_bag": {"#active": true, "#name": "item:0.54"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.47,
+                    "property_bag": {"#active": true, "#name": "item:0.53"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.48,
+                    "property_bag": {"#active": true, "#name": "item:0.52"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.49,
+                    "property_bag": {"#active": true, "#name": "item:0.51"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.5,
+                    "property_bag": {"#active": true, "#name": "item:0.50"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.51,
+                    "property_bag": {"#active": true, "#name": "item:0.49"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.52,
+                    "property_bag": {"#active": true, "#name": "item:0.48"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.53,
+                    "property_bag": {"#active": true, "#name": "item:0.47"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.54,
+                    "property_bag": {"#active": true, "#name": "item:0.46"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.55,
+                    "property_bag": {"#active": true, "#name": "item:0.45"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.56,
+                    "property_bag": {"#active": true, "#name": "item:0.44"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.57,
+                    "property_bag": {"#active": true, "#name": "item:0.43"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.58,
+                    "property_bag": {"#active": true, "#name": "item:0.42"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.59,
+                    "property_bag": {"#active": true, "#name": "item:0.41"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.6,
+                    "property_bag": {"#active": true, "#name": "item:0.40"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.61,
+                    "property_bag": {"#active": true, "#name": "item:0.39"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.62,
+                    "property_bag": {"#active": true, "#name": "item:0.38"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.63,
+                    "property_bag": {"#active": true, "#name": "item:0.37"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.64,
+                    "property_bag": {"#active": true, "#name": "item:0.36"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.65,
+                    "property_bag": {"#active": true, "#name": "item:0.35"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.66,
+                    "property_bag": {"#active": true, "#name": "item:0.34"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.67,
+                    "property_bag": {"#active": true, "#name": "item:0.33"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.68,
+                    "property_bag": {"#active": true, "#name": "item:0.32"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.69,
+                    "property_bag": {"#active": true, "#name": "item:0.31"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.7,
+                    "property_bag": {"#active": true, "#name": "item:0.30"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.71,
+                    "property_bag": {"#active": true, "#name": "item:0.29"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.72,
+                    "property_bag": {"#active": true, "#name": "item:0.28"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.73,
+                    "property_bag": {"#active": true, "#name": "item:0.27"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.74,
+                    "property_bag": {"#active": true, "#name": "item:0.26"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.75,
+                    "property_bag": {"#active": true, "#name": "item:0.25"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.76,
+                    "property_bag": {"#active": true, "#name": "item:0.24"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.77,
+                    "property_bag": {"#active": true, "#name": "item:0.23"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.78,
+                    "property_bag": {"#active": true, "#name": "item:0.22"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.79,
+                    "property_bag": {"#active": true, "#name": "item:0.21"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.8,
+                    "property_bag": {"#active": true, "#name": "item:0.20"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.81,
+                    "property_bag": {"#active": true, "#name": "item:0.19"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.82,
+                    "property_bag": {"#active": true, "#name": "item:0.18"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.83,
+                    "property_bag": {"#active": true, "#name": "item:0.17"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.84,
+                    "property_bag": {"#active": true, "#name": "item:0.16"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.85,
+                    "property_bag": {"#active": true, "#name": "item:0.15"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.86,
+                    "property_bag": {"#active": true, "#name": "item:0.14"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.87,
+                    "property_bag": {"#active": true, "#name": "item:0.13"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.88,
+                    "property_bag": {"#active": true, "#name": "item:0.12"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.89,
+                    "property_bag": {"#active": true, "#name": "item:0.11"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.9,
+                    "property_bag": {"#active": true, "#name": "item:0.10"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.91,
+                    "property_bag": {"#active": true, "#name": "item:0.09"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.92,
+                    "property_bag": {"#active": true, "#name": "item:0.08"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.93,
+                    "property_bag": {"#active": true, "#name": "item:0.07"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.94,
+                    "property_bag": {"#active": true, "#name": "item:0.06"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.95,
+                    "property_bag": {"#active": true, "#name": "item:0.05"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.96,
+                    "property_bag": {"#active": true, "#name": "item:0.04"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.97,
+                    "property_bag": {"#active": true, "#name": "item:0.03"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.98,
+                    "property_bag": {"#active": true, "#name": "item:0.02"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 0.99,
+                    "property_bag": {"#active": true, "#name": "item:0.01"}
+                  }
+                },
+                {
+                  "bar@condenser_common.bar_1": {
+                    "collection_index": "$index",
+                    "clip_ratio": 1,
+                    "property_bag": {"#active": true, "#name": "item:0.00"}
+                  }
+                }
+              ]
+              
+          }
+        }
+      ]
+  }
+}
