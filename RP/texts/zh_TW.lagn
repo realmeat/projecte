@@ -1,0 +1,162 @@
+##漢化B站Minecraft菠蘿君，任何漢化錯誤都可以直接在視頻評論區或私信要求!!!
+accessibility.chat.howtoopen=模組等價交換ProjectE§6V2.0.0,§c作者:Ramcor14,§9漢化:Realmeat
+## 作者提供的可翻譯部分
+## 物品配置
+itemconfig.config_title=工具配置
+itemconfig.tool_level=工具等級
+itemconfig.use_mode=使用模式
+itemconfig.destroy_mode=毀滅模式
+itemconfig.default_use=默認
+itemconfig.transmutation_use=轉換
+itemconfig.impact_mode=沖擊
+itemconfig.vein_mode=連鎖
+itemconfig.black_hole=黑洞
+itemconfig.solar_burn=太陽燃燒
+itemconfig.range_attack=遠程攻擊
+itemconfig.earth_shake=地震
+game.player_stunned=攻擊冷卻:
+game.attack_delay_over=攻擊冷卻結束
+##戒指
+item.mode=當前模式: 
+item.mode.default=默認
+item.mode.multi_shoot=多重射擊
+item.mode.off=關閉
+item.mode.sphere_shoot=投擲射擊
+item.mode.drop_mode=掉落
+###方塊
+tile.projecte:transmutation_table=§e轉換桌
+tile.projecte:alchemical_chest=煉金術箱子
+tile.projecte:energy_condenser_mk1=§e能量凝聚器§bMK1
+##物品
+item.projecte:dark_matter=暗物質
+item.projecte:dm_sword=暗物質劍
+item.projecte:dm_pickaxe=暗物質鎬
+item.projecte:dm_axe=暗物質斧
+item.projecte:dm_shovel.=暗物質鏟
+item.projecte:dm_hoe=暗物質鋤
+item.projecte:dm_hammer=暗物質錘
+item.projecte:dm_shears=暗物質剪刀
+item.projecte:dark_matter_helmet=暗物質頭盔
+item.projecte:dark_matter_chestplate=暗物質胸甲
+item.projecte:dark_matter_leggings=暗物質護腿
+item.projecte:dark_matter_boots=暗物質靴子
+
+item.projecte:red_matter=紅物質
+item.projecte:rm_sword=紅物質劍
+item.projecte:rm_pickaxe=紅物質鎬
+item.projecte:rm_axe=紅物質斧
+item.projecte:rm_shovel=紅物質鏟
+item.projecte:rm_hoe=紅物質鋤
+item.projecte:rm_hammer=紅物質錘
+item.projecte:rm_shears=紅物質剪刀
+item.projecte:red_katar=紅物質拳劍
+item.projecte:red_morning_star=紅物質釘頭錘
+item.projecte:red_matter_helmet=紅物質頭盔
+item.projecte:red_matter_chestplate=紅物質胸甲
+item.projecte:red_matter_leggings=紅物質護腿
+item.projecte:red_matter_boots=紅物質靴子
+##共價粉
+item.projecte:convalence_dust_low=低等共價粉
+item.projecte:convalence_dust_medium=中等共價粉
+item.projecte:convalence_dust_high=高等共價粉
+##戒指
+item.projecte:archangel_smite=大天使的懲戒
+item.projecte:black_hole_band=黑洞指環
+item.projecte:black_hole_band_on=黑洞指環
+item.projecte:zero_ring=零度指環
+item.projecte:zero_ring_on=零度指環
+item.projecte:ignition_ring=烈焰指環
+item.projecte:void_ring=虛空指環
+item.projecte:void_ring_on=虛空指環
+item.projecte:harvest_god=豐收女神戒指
+item.projecte:harvest_god_on=豐收女神戒指
+item.projecte:swrg=烈風戒指
+item.projecte:swrg_on=烈風戒指
+##遺物
+item.projecte:evertide_amulet=潮汐護符
+item.projecte:volcanite_amulet=熔焰護符
+item.projecte:mind_stone=念之寶石
+item.projecte:soul_stone=靈魂寶石
+item.projecte:body_stone=身之寶石
+item.projecte:life_stone=§e生命寶石
+item.projecte:dense_gem=以太密度寶石
+##燃料
+item.projecte:aeternalis_fuel=永恒燃料
+item.projecte:mobius_fuel=莫比烏斯燃料
+item.projecte:alchemical_coal=煉金煤炭
+##雜項
+item.projecte:philosophers_stone=§u賢者之石
+item.projecte:tome=§e煉金術秘卷
+item.projecte:klein_star_1=§e一級卡萊恩能量之星
+item.projecte:klein_star_2=§e二級卡萊恩能量之星
+item.projecte:klein_star_3=§e三級卡萊恩能量之星
+item.projecte:klein_star_4=§e四級卡萊恩能量之星
+item.projecte:klein_star_5=§e五級卡萊恩能量之星
+item.projecte:klein_star_6=§e六級卡萊恩能量之星
+##盔甲
+item.projecte:abyss_helmet=§e深淵頭盔
+item.projecte:infernal_chestplate=§e煉獄胸甲
+item.projecte:gravity_leggings=§e重力護腿
+item.projecte:hurricane_boots=§e颶風長靴
+
+##以下程序由B站Minecraft菠蘿君提取程序所寫並進行人工漢化
+Alchemical Chest=煉金術箱子
+§eEnergy Condenser §bMK1=§e能量凝聚器§bMK1
+§eTransmutation Table=§e轉換桌
+§8[Empty]=§8[空]
+§eTome of Knowledge=§e煉金術秘卷
+Dark Matter Boots=暗物質靴子
+Dark Matter Chestplate=暗物質胸甲
+Dark Matter Helmet=暗物質頭盔
+Dark Matter Leggings=暗物質護腿
+§eHurricane Boots=§e颶風長靴
+§eInfernal Armor=§e煉獄胸甲
+§eAbyss Helmet=§e深淵頭盔
+§eGravity Greaves=§e重力護腿
+Red Matter Boots=紅物質靴子
+Red Matter Chestplate=紅物質胸甲
+Red Matter Helmet=紅物質頭盔
+Red Matter Leggings=紅物質護腿
+Dark Matter Axe=暗物質斧
+Dark Matter Hammer=暗物質錘
+Dark Matter Hoe=暗物質鋤
+Dark Matter Pickaxe=暗物質鎬
+Dark Matter Shears=暗物質剪刀
+Dark Matter Shovel=暗物質鏟
+Dark Matter Sword=暗物質劍
+Convalence Dust §1[High]=高等共價粉
+Convalence Dust §2[Low]=低等共價粉
+Convalence Dust §3[Medium]=中等共價粉
+Aeternalis Fuel=永恒燃料
+Alchemical Coal=煉金煤炭
+Mobius Fuel=莫比烏斯燃料
+Red Matter Axe=紅物質斧
+Red Matter Hammer=紅物質錘
+Red Matter Hoe=紅物質鋤
+Red Katar=紅物質拳劍
+Red Morning Star=紅物質釘頭錘
+Red Matter Pickaxe=紅物質鎬
+Red Matter Shears=紅物質剪刀
+Red Matter Shovel=紅物質鏟
+Red Matter Sword=紅物質劍
+Body Stone=身之寶石
+Gem of Eternal Density=以太密度寶石
+Evertide Amulet=潮汐護符
+Life Stone=§e生命寶石
+Mind Stone=念之寶石
+Soul Stone=靈魂寶石
+Volcanite Amulet=熔焰護符
+Black Hole Band=黑洞指環
+Harvest Goddess Band=豐收女神戒指
+Harvest God=豐收女神戒指
+Ignition Ring=烈焰指環
+Iron Band=鐵指環
+SwiftWolf's Rending Gale=烈風戒指
+Void Ring=虛空指環
+Zero Ring=零度指環
+§eKlein Star Ein=§e一級卡萊恩能量之星
+§eKlein Star Zwei=§e二級卡萊恩能量之星
+§eKlein Star Drei=§e三級卡萊恩能量之星
+§eKlein Star Vier=§e四級卡萊恩能量之星
+§eKlein Star Sphere=§e五級卡萊恩能量之星
+§eKlein Star Omega=§e六級卡萊恩能量之星
