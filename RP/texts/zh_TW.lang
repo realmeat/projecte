@@ -1,6 +1,4 @@
-##漢化B站Minecraft菠蘿君，任何漢化錯誤都可以直接在視頻評論區或私信要求!!!
 accessibility.chat.howtoopen=模組等價交換ProjectE§6V2.0.0,§c作者:Ramcor14,§9漢化:Realmeat
-## 作者提供的可翻譯部分
 ## 物品配置
 itemconfig.config_title=工具配置
 itemconfig.tool_level=工具等級
@@ -99,7 +97,6 @@ item.projecte:infernal_chestplate=§e煉獄胸甲
 item.projecte:gravity_leggings=§e重力護腿
 item.projecte:hurricane_boots=§e颶風長靴
 
-##以下程序由B站Minecraft菠蘿君提取程序所寫並進行人工漢化
 Alchemical Chest=煉金術箱子
 §eEnergy Condenser §bMK1=§e能量凝聚器§bMK1
 §eTransmutation Table=§e轉換桌
