@@ -1,6 +1,6 @@
 {
   "namespace": "transmutation_table",
-  //utilites
+  
   "view": {
     "type": "button",
     "focus_enabled": true,
@@ -19,7 +19,7 @@
           "type": "panel",
           "factory": {
             "name": "bundle_popup_factory",
-            "control_name": "common.bundle_mode_popup_control",
+
             "max_children_size": 1
           }
         }
@@ -182,7 +182,7 @@
       }
     ]
   },
-  //elements
+
   "book": {
     "type": "image",
     "texture": "textures/gui/transmutation_book_overlay",
@@ -456,7 +456,7 @@
       }
     ]
   },
-  //final
+
   "top_half": {
     "type": "panel",
     "size": ["100%", "50% - 12px"],
