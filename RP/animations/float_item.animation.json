@@ -12,9 +12,7 @@
 					},
 					"position": [0, 3, 0]
 				},
-				// "rightitem": {
-				// 	"rotation": [80, 10, -15]
-				// },
+
 				"effect": {
 					"rotation": [0, 0, 0],
 					"position": {

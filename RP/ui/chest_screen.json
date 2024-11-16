@@ -196,7 +196,6 @@
       }
     ]
   },
-  //screen 
   "small_chest_screen": {
     "$new_container_title|default": "$container_title",
     "modifications": [
