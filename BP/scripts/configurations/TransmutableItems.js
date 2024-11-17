@@ -2587,7 +2587,7 @@ export default {
         "emc": 380
     },
     "item:608": {
-        "id": "minecraft:slime_block",
+        "id": "minecraft:slime",
         "emc": 288
     },
     "item:609": {
@@ -3964,5 +3964,61 @@ export default {
         "id": "minecraft:bed",
         "data": "15",
         "emc": 168
-    }
+    },
+    "item:950":{
+        "id": "minecraft:totem_of_undying",
+        "emc": 147584
+    },
+    "item:951":{
+        "id": "minecraft:experience_bottle",
+        "emc": 4096
+    },
+    "item:952":{
+        "id": "minecraft:heart_of_the_sea",
+        "emc": 4096
+    },
+    "item:953":{
+        "id": "minecraft:dragon_breath",
+        "emc": 1024
+    },
+    "item:954":{
+        "id": "minecraft:dragon_egg",
+        "emc": 4096
+    },
+    "item:955":{
+        "id": "minecraft:dragon_head",
+        "emc": 8192
+    },
+    "item:956":{
+        "id": "minecraft:player_head",
+        "emc": 4096
+    },
+    "item:957":{
+        "id": "minecraft:creeper_head",
+        "emc": 4096
+    },
+    "item:958":{
+        "id": "minecraft:zombie_head",
+        "emc": 4096
+    },
+    "item:959":{
+        "id": "minecraft:skeleton_skull",
+        "emc": 4096
+    },
+    "item:960":{
+        "id": "minecraft:piglin_head",
+        "emc": 4096
+    },
+    "item:961":{
+        "id": "minecraft:wither_skeleton_skull",
+        "emc": 256
+    },
+    "item:962":{
+        "id": "minecraft:elytra",
+        "emc": 65536
+    },
+    "item:963":{
+        "id": "minecraft:brewing_stand",
+        "emc": 1640
+    },
 }

@@ -2,38 +2,22 @@
     "format_version": 2,
     "header": {
         "description": "作者:Ramcor14, 協作:Realmeat0418, 簡體翻譯: B站Minecraft菠萝君",
-        "name": "等價交換 ProjectE.V2.0.1",
+        "name": "等價交換 ProjectE.V2.0.2",
         "uuid": "0689bfd9-e985-44ed-9d2c-8ddca85210e9",
-        "min_engine_version": [
-            1,
-            20,
-            60
-        ],
-        "version": [
-            2,
-            0,
-            0
-        ]
+        "min_engine_version": [1, 20, 60],
+        "version": [2, 0, 2]
     },
     "modules": [
         {
             "type": "data",
-            "version": [
-                2,
-                0,
-                0
-            ],
+            "version": [2, 0, 2],
             "uuid": "8041fa76-19e1-4231-b497-a7166a1c8918"
         },
         {
             "type": "script",
             "language": "javascript",
             "uuid": "7cb3f471-b621-441b-b727-acf9696fca5c",
-            "version": [
-                2,
-                0,
-                0
-            ],
+            "version": [2, 0, 2],
             "entry": "scripts/main.js"
         }
     ],
@@ -43,11 +27,7 @@
     "dependencies": [
         {
             "uuid": "b94dadc9-348e-4136-ad2b-e418cdcad203",
-            "version": [
-                2,
-                0,
-                0
-            ]
+            "version": [2, 0, 2]
         },
         {
             "module_name": "@minecraft/server",
