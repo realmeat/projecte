@@ -9,7 +9,7 @@
 					"on_exit": ["v.book_rotation = query.rotation_to_camera(1);"],
 					"particle_effects": [
 						{
-							"effect": "",
+							"effect": "glow",
 							"bind_to_actor": false
 						}
 					],
@@ -23,7 +23,7 @@
 					"on_exit": [],
 					"particle_effects": [
 						{
-							"effect": "",
+							"effect": "glow",
 							"bind_to_actor": false
 						}
 					],

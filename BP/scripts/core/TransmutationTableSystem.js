@@ -149,11 +149,11 @@ mc.world.afterEvents.dataDrivenEntityTrigger.subscribe(data => {
                     container.setItem(i, empty)
                 }
                 mc.world.playSound(`item.petransmute`, entity.location, { volume: 1 })
-                if (TomeSlot && !TomeList.includes(BurnSlot.ItemId) && TomeList.length < 250) {
+                if (TomeSlot && !TomeList.includes(BurnSlot.ItemId) && TomeList.length < 500) {
                     let newTome = TomeSlot.clone()
                     TomeList.push(BurnSlot.ItemId)
                     newTome.setDynamicProperty("projecte:items", JSON.stringify(TomeList))
-                    newTome.setLore([`§r§7Items: [${TomeList.length}/250]`])
+                    newTome.setLore([`§r§7Items: [${TomeList.length}/500]`])
                     container.setItem(16, newTome)
                 }
             }
