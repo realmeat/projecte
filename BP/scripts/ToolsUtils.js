@@ -94,11 +94,10 @@ export function Vector(x=0,y=0,z=0){
             return (v1.x * v2.x + v1.y * v2.y + v1.z * v2.z)
         },
         normalized: ()=>{
-            let len = Actions.len
-            return { x: v1.x / length, y: v1.y / length, z: v1.z / length }
+            const len = Actions.len
+            return { x: v1.x / len, y: v1.y / len, z: v1.z / len }
         },
         direction: (v2)=>{
-            const length = Vector(v2).len
             const Dif = Vector(v2.x - v1.x, v2.y - v1.y, v2.z - v1.z);
             return Dif.normalized();
         },
