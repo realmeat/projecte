@@ -33,9 +33,12 @@ function GetEMCValid(Entity = mc.Entity.prototype, Slot = Number, Item = mc.Item
         for (let itemID in EMCI) {
             const itemE = EMCI[itemID]
             if (ItemEMC == undefined && Item.typeId == itemE.id) {
-                let data = itemE.data ? Number(itemE.data) : 0
-                let hasItem = `hasItem={item=${Item.typeId}, data=${data}, slot=${Slot}, location=slot.inventory}`
-                const Result = Entity.runCommand(`testfor @s[${hasItem}]`).successCount == 1
+                let Result = true
+                if (itemE.data != undefined) {
+                    const data = Number(itemE.data)
+                    const hasItem = `hasItem={item=${Item.typeId}, data=${data}, slot=${Slot}, location=slot.inventory}`
+                    Result = Entity.runCommand(`testfor @s[${hasItem}]`).successCount == 1
+                }
                 if (Result) {
                     ItemId = itemID
                     ItemEMC = itemE
@@ -53,11 +56,16 @@ function SetEMCItem(Entity = mc.Entity.prototype, container = mc.EntityInventory
     let CurrentEMC = Entity.getProperty("projecte:emc")
     let ItemEMC = EMCI[ItemID]
     if (ItemEMC) {
-       // let itemStack = new mc.ItemStack(ItemEMC.id)
-        let data = ItemEMC.data ? Number(ItemEMC.data) : 0
-        let commandItem = `${ItemEMC.id} 1 ${data}`
-        Entity.runCommand(`replaceitem entity @s slot.inventory ${Slot} ${commandItem}`)
-        let newItem = container.getItem(Slot).clone()
+        let newItem = undefined
+        if (ItemEMC.data != undefined) {
+            const data = Number(ItemEMC.data)
+            const commandItem = `${ItemEMC.id} 1 ${data}`
+            Entity.runCommand(`replaceitem entity @s slot.inventory ${Slot} ${commandItem}`)
+            newItem = container.getItem(Slot)?.clone()
+        } else {
+            newItem = new mc.ItemStack(ItemEMC.id, 1)
+        }
+        if (!newItem) return
         let points = clamp(Math.round(newItem.maxAmount * (CurrentEMC / (ItemEMC.emc * newItem.maxAmount))), 1, newItem.maxAmount)
        // mc.world.sendMessage(`Items: ${points}, EMC: ${NumberSuffix(ItemEMC.emc)}, Current: ${NumberSuffix(ItemEMC.emc * points)}`)
         Entity.setDynamicProperty(`projecte:item:${Slot}`, points)

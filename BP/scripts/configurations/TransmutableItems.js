@@ -4021,4 +4021,212 @@ export default {
         "id": "minecraft:brewing_stand",
         "emc": 1640
     },
+    "item:964":{
+        "id": "minecraft:crafter",
+        "emc": 1835
+    },
+    "item:965":{
+        "id": "minecraft:trial_key",
+        "emc": 8192
+    },
+    "item:966":{
+        "id": "minecraft:ominous_trial_key",
+        "emc": 16384
+    },
+    "item:967":{
+        "id": "minecraft:ominous_bottle",
+        "emc": 4096
+    },
+    "item:968":{
+        "id": "minecraft:breeze_rod",
+        "emc": 1536
+    },
+    "item:969":{
+        "id": "minecraft:wind_charge",
+        "emc": 384
+    },
+    "item:970":{
+        "id": "minecraft:armadillo_scute",
+        "emc": 128
+    },
+    "item:971":{
+        "id": "minecraft:wolf_armor",
+        "emc": 768
+    },
+    "item:972":{
+        "id": "minecraft:heavy_core",
+        "emc": 32768
+    },
+    "item:973":{
+        "id": "minecraft:mace",
+        "emc": 34304
+    },
+    "item:974":{
+        "id": "minecraft:polished_tuff",
+        "emc": 4
+    },
+    "item:975":{
+        "id": "minecraft:tuff_stairs",
+        "emc": 6
+    },
+    "item:976":{
+        "id": "minecraft:tuff_slab",
+        "emc": 2
+    },
+    "item:977":{
+        "id": "minecraft:tuff_wall",
+        "emc": 4
+    },
+    "item:978":{
+        "id": "minecraft:tuff_bricks",
+        "emc": 4
+    },
+    "item:979":{
+        "id": "minecraft:tuff_brick_stairs",
+        "emc": 6
+    },
+    "item:980":{
+        "id": "minecraft:tuff_brick_slab",
+        "emc": 2
+    },
+    "item:981":{
+        "id": "minecraft:tuff_brick_wall",
+        "emc": 4
+    },
+    "item:982":{
+        "id": "minecraft:chiseled_tuff",
+        "emc": 4
+    },
+    "item:983":{
+        "id": "minecraft:chiseled_tuff_bricks",
+        "emc": 4
+    },
+    "item:984":{
+        "id": "minecraft:copper_door",
+        "emc": 256
+    },
+    "item:985":{
+        "id": "minecraft:copper_trapdoor",
+        "emc": 384
+    },
+    "item:986":{
+        "id": "minecraft:copper_grate",
+        "emc": 128
+    },
+    "item:987":{
+        "id": "minecraft:copper_bulb",
+        "emc": 388
+    },
+    "item:988":{
+        "id": "minecraft:chiseled_copper",
+        "emc": 128
+    },
+    "item:989":{
+        "id": "minecraft:leaf_litter",
+        "emc": 1
+    },
+    "item:990":{
+        "id": "minecraft:wildflowers",
+        "emc": 16
+    },
+    "item:991":{
+        "id": "minecraft:short_dry_grass",
+        "emc": 1
+    },
+    "item:992":{
+        "id": "minecraft:tall_dry_grass",
+        "emc": 2
+    },
+    "item:993":{
+        "id": "minecraft:cactus_flower",
+        "emc": 64
+    },
+    "item:994":{
+        "id": "minecraft:firefly_bush",
+        "emc": 16
+    },
+    "item:995":{
+        "id": "minecraft:pale_oak_log",
+        "emc": 32
+    },
+    "item:996":{
+        "id": "minecraft:pale_oak_wood",
+        "emc": 32
+    },
+    "item:997":{
+        "id": "minecraft:stripped_pale_oak_log",
+        "emc": 32
+    },
+    "item:998":{
+        "id": "minecraft:stripped_pale_oak_wood",
+        "emc": 32
+    },
+    "item:999":{
+        "id": "minecraft:pale_oak_planks",
+        "emc": 8
+    },
+    "item:1000":{
+        "id": "minecraft:pale_oak_sapling",
+        "emc": 32
+    },
+    "item:1001":{
+        "id": "minecraft:pale_oak_leaves",
+        "emc": 1
+    },
+    "item:1002":{
+        "id": "minecraft:pale_moss_block",
+        "emc": 4
+    },
+    "item:1003":{
+        "id": "minecraft:pale_moss_carpet",
+        "emc": 1
+    },
+    "item:1004":{
+        "id": "minecraft:pale_hanging_moss",
+        "emc": 4
+    },
+    "item:1005":{
+        "id": "minecraft:open_eyeblossom",
+        "emc": 32
+    },
+    "item:1006":{
+        "id": "minecraft:closed_eyeblossom",
+        "emc": 32
+    },
+    "item:1007":{
+        "id": "minecraft:resin_clump",
+        "emc": 32
+    },
+    "item:1008":{
+        "id": "minecraft:resin_brick",
+        "emc": 128
+    },
+    "item:1009":{
+        "id": "minecraft:resin_block",
+        "emc": 1152
+    },
+    "item:1010":{
+        "id": "minecraft:resin_bricks",
+        "emc": 128
+    },
+    "item:1011":{
+        "id": "minecraft:chiseled_resin_bricks",
+        "emc": 128
+    },
+    "item:1012":{
+        "id": "minecraft:resin_brick_stairs",
+        "emc": 192
+    },
+    "item:1013":{
+        "id": "minecraft:resin_brick_slab",
+        "emc": 64
+    },
+    "item:1014":{
+        "id": "minecraft:resin_brick_wall",
+        "emc": 128
+    },
+    "item:1015":{
+        "id": "minecraft:creaking_heart",
+        "emc": 8192
+    },
 }
